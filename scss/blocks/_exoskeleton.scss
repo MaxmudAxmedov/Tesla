@@ -7,8 +7,7 @@
   flex-direction: row-reverse;
 }
 .exoskeleton__content{
-  width: 100%;
-  max-width: 528px;
+  width: 45%;
 }
 .exoskeleton__title{
   margin: 0;
@@ -31,13 +30,21 @@
   height: 336px;
 }
 
-@media only screen and(max-width: 560px){
+@media only screen and(max-width: 940px){
   .exoskeleton-inner{
     flex-direction: column;
     margin-bottom: 70px;
   }
   .exoskeleton__content{
+    margin: 0 auto;
+    text-align: center;
     margin-bottom: 28px;
+    width: 90%;
+  }
+
+  .the-car{
+    display: block;
+    margin: 0 auto;
   }
   .exoskeleton__title{
     font-size: 24px;
@@ -47,5 +54,13 @@
     font-size: 16px;
     line-height: 26px;
   }
-  
+
+}
+
+@media only screen and (max-width:560px){
+  .exoskeleton__content{
+    margin: 0;
+    text-align: left;
+    margin-bottom: 28px;
+  }
 }
