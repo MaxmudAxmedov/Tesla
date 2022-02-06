@@ -7,7 +7,8 @@
   flex-direction: row-reverse;
 }
 .exoskeleton__content{
-  width: 528px;
+  width: 100%;
+  max-width: 528px;
 }
 .exoskeleton__title{
   margin: 0;
@@ -28,4 +29,23 @@
 .exoskeleton__img{
   width: 600px;
   height: 336px;
+}
+
+@media only screen and(max-width: 560px){
+  .exoskeleton-inner{
+    flex-direction: column;
+    margin-bottom: 70px;
+  }
+  .exoskeleton__content{
+    margin-bottom: 28px;
+  }
+  .exoskeleton__title{
+    font-size: 24px;
+    line-height: 33px;
+  }
+  .exoskeleton__text{
+    font-size: 16px;
+    line-height: 26px;
+  }
+  
 }
