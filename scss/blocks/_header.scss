@@ -1,0 +1,57 @@
+header{
+  background-image: url("../../img/Desktop-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+.header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0 100px 0;
+}
+.header__img-logo{
+  width: 400px;
+  height: 113px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.header__text{
+  margin: 0;
+  margin-bottom: 500px;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: center;
+  color: #000000;
+}
+.header__btn-link{
+  text-decoration: none;
+  border: 4px solid #FFFFFF;
+  padding: 14px 64px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+@media only screen and(max-width: 560px){
+  header{
+    background-image: url("../../img/mobile-bg-header.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .header__img-logo{
+    width: 200px;
+    height: 56px;
+  }
+  .header__text{
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .header__btn-link{
+    width: 100%;
+  }
+}
