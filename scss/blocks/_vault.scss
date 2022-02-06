@@ -1,0 +1,42 @@
+.vault{
+    margin-top: 80px;
+}
+
+.vault__content{
+    width: 100%;
+}
+.vault__title{
+    margin: 0;
+    padding: 0;
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 38px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.vault__text{
+    margin: 0;
+    padding: 0;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+
+@media only screen and (max-width:560px){
+    .vault__title{
+        font-size: 24px;
+        line-height: 33px;
+    }
+
+    .vault__text{
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
