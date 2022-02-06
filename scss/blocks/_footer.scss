@@ -1,5 +1,4 @@
 .site-footer{
-
     margin-top: 200px;
 }
 
@@ -11,4 +10,23 @@
     top: -76px;
     bottom: 0;
     margin: auto;
+}
+.footer__btn-link{
+    text-decoration: none;
+    position: fixed;
+    // left: calc(50% + 540px);
+    left: 80%;
+    bottom: calc(5%);
+
+}
+
+@media only screen and (max-width:560px){
+    .footer__btn-img{
+        width: 37px;
+        height: 37px;
+    }
+    .footer__btn-link{
+        left: 87%;
+
+    }
 }
